@@ -1,0 +1,39 @@
+.form-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px 50px;
+  margin-top: 80px;
+  background-color: rgb(241, 241, 241);
+
+  border-radius: 5px;
+}
+
+.input-form {
+  outline: none;
+  width: 250px;
+  height: 30px;
+  border: none;
+  padding: 0px 10px;
+}
+
+.add-title{
+  font-family: Arial;
+  font-size: 20px;
+  color: teal;
+}
+
+.add-button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  outline: none;
+  cursor: pointer;
+}
